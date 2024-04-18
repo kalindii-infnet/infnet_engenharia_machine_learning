@@ -1,0 +1,25 @@
+artifact_path: sklearn-model
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.11.3
+model_size_bytes: 907902
+model_uuid: 2688807587704fd99158dd0632e9f37e
+run_id: 65a781f0e6e14ca8abffe784b256816b
+saved_input_example_info:
+  artifact_path: input_example.json
+  format: tf-serving
+  type: ndarray
+signature:
+  inputs: '[{"type": "double", "name": "lat", "required": true}, {"type": "double",
+    "name": "lon", "required": true}, {"type": "long", "name": "minutes_remaining",
+    "required": true}, {"type": "long", "name": "period", "required": true}, {"type":
+    "long", "name": "playoffs", "required": true}, {"type": "long", "name": "shot_distance",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    2]}}]'
+  params: null
+utc_time_created: '2024-04-18 23:12:54.237099'
